@@ -11,8 +11,8 @@ setup(
     install_requires=[
         'torch',
         'torchvision',
-        'Pillow',
-        'transformers',
-        'diffusers',
+        'Pillow==9.20.',
+        'transformers==4.22.1',
+        'diffusers==0.3.0',
     ],
 )
